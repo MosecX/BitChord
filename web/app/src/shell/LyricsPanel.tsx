@@ -1,5 +1,5 @@
 // Registers <am-lyrics>.
-import '@uimaxbai/am-lyrics/am-lyrics.js';
+import '@/lib/am-lyrics/am-lyrics.js';
 import { Check, ChevronDown, Loader2, Minus, Settings2 } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { useCanvas } from '@/data/spotify/canvas';
